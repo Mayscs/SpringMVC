@@ -11,6 +11,10 @@
     <title>Index Page</title>
   </head>
   <body>
-  <a href="">"Take me to Home"</a>
+  <a href="/home">Home Page</a>
+  <br/>
+  <a href="/homedemo">Home Demo</a>
+	<br>
+	<a href="/showForm">Basic Information Form</a>
   </body>
 </html>

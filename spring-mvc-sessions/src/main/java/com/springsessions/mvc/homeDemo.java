@@ -15,7 +15,7 @@ public class homeDemo {
 	public ModelAndView showHomePage() {
 		ModelAndView  modelAndView = new ModelAndView("Home");
 		modelAndView.addObject("pageTitle", "Home Page");
-		modelAndView.addObject("message", "This is home page.");
+		modelAndView.addObject("message", "Welcome to our home page.");
 		return modelAndView;
 	}
 }
