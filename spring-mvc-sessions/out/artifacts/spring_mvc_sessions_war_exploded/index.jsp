@@ -15,6 +15,8 @@
   <br/>
   <a href="/homedemo">Home Demo</a>
 	<br>
-	<a href="/showForm">Basic Information Form</a>
+	<a href="/candidate/showForm">Basic Information Form: Candidate</a>
+	<br>
+	<a href="/employee/showForm">Basic Information Form: Employee</a>
   </body>
 </html>

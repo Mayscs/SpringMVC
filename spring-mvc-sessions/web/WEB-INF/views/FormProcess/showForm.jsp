@@ -9,10 +9,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-	<title>Basic Informartion Form</title>
+	<title>Basic Information Form</title>
 </head>
 <body>
-<form action="/processedFormDataV1" method="get">
+<form action="processedFormDataV1" method="get">
 	<input type="text" name="candidateName"
 				 placeholder="What is your name ?" />
 	<br>

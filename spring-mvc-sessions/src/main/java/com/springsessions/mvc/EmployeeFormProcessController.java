@@ -2,16 +2,14 @@ package com.springsessions.mvc;
 
 import javax.servlet.http.HttpServletRequest;
 
-import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Component;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@Controller
-@RequestMapping("/candidate")
-public class FormProcessController {
-
-	//Controller method to show form
+@Component
+@RequestMapping("/employee")
+public class EmployeeFormProcessController {
 	@RequestMapping("/showForm")
 	public String showFormPage() {
 		return "FormProcess/showForm";
@@ -38,5 +36,4 @@ public class FormProcessController {
 		myModel.addAttribute("upperCaseName", candidateName);
 		return "FormProcess/processedFormData" ;
 	}
-
 }
