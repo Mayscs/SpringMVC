@@ -12,9 +12,13 @@
 	<title>Basic Informartion Form</title>
 </head>
 <body>
-<form action="/processForm" method="get">
+<form action="/processedFormDataV1" method="get">
 	<input type="text" name="candidateName"
-	placeholder="What is your name ?" />
+				 placeholder="What is your name ?" />
+	<br>
+	<input type="text" name="age"
+				 placeholder="What's your age" />
+	<br>
 	<input type="submit" value="Submit Form"/>
 	</form>
 

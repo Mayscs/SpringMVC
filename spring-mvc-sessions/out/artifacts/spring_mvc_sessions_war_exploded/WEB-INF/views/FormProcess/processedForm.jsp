@@ -11,7 +11,8 @@
 	<title>Processed Form</title>
 </head>
 <body>
-Hey ${param.candidateName}
+<br>
+Hey <b${param.candidateName}/>
 your form has been processed.
 
 <br> <br>

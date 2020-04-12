@@ -38,6 +38,31 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/DSA/src/main/java/Arrays/DynamicArray.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/DSA/src/main/java/Arrays/DynamicArrayImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/DSA/src/main/java/LinkedList/DoubleLinkedList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/DSA/src/main/java/LinkedList/DoubleLinkedListImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/DSA/src/main/java/Stack/Runner.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/DSA/src/main/java/Stack/StackImpl.java">
           <value>
             <set />
@@ -63,7 +88,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/web/WEB-INF/views/FormProcess/processedAndForm.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/web/WEB-INF/views/FormProcess/processedForm.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web/WEB-INF/views/FormProcess/processedFormData.jsp">
           <value>
             <set />
           </value>
