@@ -5,6 +5,7 @@ public class Player {
 	private String firstName;
 	private String lastName;
 	private int age;
+	private String sportsCategory;
 
 	//Getters
 	public String getFirstName() {
@@ -19,6 +20,11 @@ public class Player {
 		return age;
 	}
 
+	public String getSportsCategory() {
+		return sportsCategory;
+	}
+
+
 	//Setters
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
@@ -32,6 +38,8 @@ public class Player {
 		this.age = age;
 	}
 
-
+	public void setSportsCategory(String category) {
+		this.sportsCategory = category;
+	}
 
 }

@@ -17,7 +17,16 @@
 	<br><br>
 	Last Name: <form:input path="lastName" />
 	<br><br>
-	<input type="submit" value="Submit Details">
+	Age: <form:input path="age" />
+	<br><br>
+	Category <form:select path="sportsCategory">
+						<form:option value="SWIMMING" label="Swimming" />
+						<form:option value="CRICKET" label="Cricket" />
+						<form:option value="TENNIS" label="Tennis" />
+						<form:option value="FOOTBALL" label="Football" />
+					</form:select>
+	<br><br>
+	<input type="submit" value="Submit Details" />
 
 </form:form>
 </body>

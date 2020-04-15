@@ -13,8 +13,12 @@
 <body>
 Hurray!! Player Registration Completed.
 <br><br>
-Player Details:
-<br><br>
-Player Name : ${sportsPerson.firstName} ${sportsPerson.lastName}
+<b> Player Details </b>:
+<br>
+<b> Name </b> : ${sportsPerson.firstName} ${sportsPerson.lastName}
+<br>
+<b> Age </b> : ${sportsPerson.age}
+<br>
+<b> Category </b> : ${sportsPerson.sportsCategory}
 </body>
 </html>
