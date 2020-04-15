@@ -3,6 +3,11 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect-core/src/main/java/com/appdirect/backend/integration/custom/crest/model/CrestSku.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect/src/main/java/com/appdirect/backend/api/custom/mosi/impl/service/MicrosoftCustomIntegrationServiceImpl.java">
           <value>
             <set />
@@ -68,12 +73,72 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/Controller/EmployeeFormProcessController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/Controller/FormProcessController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/Controller/homeDemo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/EmployeeFormProcessController.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/FormProcessController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/Player.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/controller/EmployeeFormProcessController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/controller/FormProcessController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/controller/PlayerFormController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/controller/homeDemo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/entity/EmployeeFormProcessController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/entity/FormProcessController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/entity/Player.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/entity/homeDemo.java">
           <value>
             <set />
           </value>
@@ -119,6 +184,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/web/WEB-INF/views/HomeDemo.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web/WEB-INF/views/player-details-For.jsp">
           <value>
             <set />
           </value>

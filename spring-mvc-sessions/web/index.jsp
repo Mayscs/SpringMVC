@@ -18,5 +18,7 @@
 	<a href="/candidate/showForm">Basic Information Form: Candidate</a>
 	<br>
 	<a href="/employee/showForm">Basic Information Form: Employee</a>
+	<br>
+	<a href="/player/showForm">Player Details Form</a>
   </body>
 </html>
