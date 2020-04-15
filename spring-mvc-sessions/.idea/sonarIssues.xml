@@ -188,6 +188,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/web/WEB-INF/views/player-confirmation-page.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/web/WEB-INF/views/player-details-For.jsp">
           <value>
             <set />

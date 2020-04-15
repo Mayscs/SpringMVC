@@ -7,16 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8b3aadd-3b18-465a-82b4-1905cc11a256" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/controller/PlayerFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/entity/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/player-details-For.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/player-details-page.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/EmployeeFormProcessController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/controller/EmployeeFormProcessController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/FormProcessController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/controller/FormProcessController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/homeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/controller/homeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/controller/PlayerFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/controller/PlayerFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/player-details-For.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/player-confirmation-page.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +42,7 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="java" value="8" />
-          <entry key="jsp" value="12" />
+          <entry key="jsp" value="13" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
@@ -54,22 +50,22 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="JAVA" value="8" />
-          <entry key="JSP" value="12" />
+          <entry key="JSP" value="13" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="1734" />
-          <entry key="jsp" value="1307" />
+          <entry key="java" value="1938" />
+          <entry key="jsp" value="1667" />
           <entry key="xml" value="209" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1734" />
-          <entry key="JSP" value="1307" />
+          <entry key="JAVA" value="1938" />
+          <entry key="JSP" value="1667" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="209" />
         </counts>
@@ -117,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springsessions/mvc/controller/PlayerFormController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="28" />
+            <state relative-caret-position="300">
+              <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,11 +122,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/player-details-For.jsp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/player-confirmation-page.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="255">
+              <caret line="17" column="64" lean-forward="true" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/player-details-page.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -139,7 +144,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springsessions/mvc/entity/Player.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="19" />
               <folding>
                 <element signature="e#85#86#0" expanded="true" />
                 <element signature="e#108#109#0" expanded="true" />
@@ -181,15 +186,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/FormProcess/processedFormData.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -239,9 +235,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/Controller/EmployeeFormProcessController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/entity/EmployeeFormProcessController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/controller/EmployeeFormProcessController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/controller/PlayerFormController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/player-details-For.jsp" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/player-details-For.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/player-confirmation-page.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/controller/PlayerFormController.java" />
       </list>
     </option>
   </component>
@@ -358,6 +355,14 @@
             <path>
               <item name="spring-mvc-sessions" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-mvc-sessions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-mvc-sessions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-mvc-sessions" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -396,7 +401,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586974714729" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586976224179" />
     <property name="last_opened_file_path" value="$USER_HOME$/appdirect/appdirect-parent/appdirect/src/main/groovy" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -706,7 +711,7 @@
       <workItem from="1586712819748" duration="4734000" />
       <workItem from="1586756344619" duration="598000" />
       <workItem from="1586799974229" duration="1208000" />
-      <workItem from="1586943429721" duration="1965000" />
+      <workItem from="1586943429721" duration="3366000" />
     </task>
     <servers />
   </component>
@@ -719,7 +724,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30883000" />
+    <option name="totallyTimeSpent" value="32284000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -732,6 +737,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -742,7 +748,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32961586" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32961586" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.21468927" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -750,7 +756,7 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928468" weight="0.32909605" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32909605" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32909605" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32909605" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3283767" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.32909605" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32909605" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32909605" />
@@ -823,13 +829,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/FormProcess/showForm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/Home.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -837,38 +836,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springsessions/mvc/entity/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#85#86#0" expanded="true" />
-            <element signature="e#108#109#0" expanded="true" />
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springsessions/mvc/controller/EmployeeFormProcessController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springsessions/mvc/controller/FormProcessController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
@@ -888,16 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springsessions/mvc/controller/PlayerFormController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -905,10 +863,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/player-details-For.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springsessions/mvc/controller/FormProcessController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springsessions/mvc/entity/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="19" />
+          <folding>
+            <element signature="e#85#86#0" expanded="true" />
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/FormProcess/showForm.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/player-confirmation-page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="64" lean-forward="true" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springsessions/mvc/controller/PlayerFormController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/player-details-page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
         </state>
       </provider>
     </entry>
