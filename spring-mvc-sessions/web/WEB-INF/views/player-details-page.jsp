@@ -26,8 +26,11 @@
 						<form:option value="FOOTBALL" label="Football" />
 					</form:select>
 	<br><br>
+	Country <form:select path="country">
+						<form:options items="${sportsPerson.countryList}"/>
+					</form:select>
+	<br><br>
 	<input type="submit" value="Submit Details" />
-
 </form:form>
 </body>
 </html>

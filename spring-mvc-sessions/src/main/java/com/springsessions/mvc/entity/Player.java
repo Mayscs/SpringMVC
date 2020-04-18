@@ -1,12 +1,29 @@
 package com.springsessions.mvc.entity;
 
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+
 public class Player {
 
 	private String firstName;
 	private String lastName;
 	private int age;
 	private String sportsCategory;
+	private String country;
+	private LinkedHashMap<String,String> countryList;
 
+	public Player() {
+		init();
+	}
+
+	private void init() {
+		countryList = new LinkedHashMap<>();
+		Country[] countries = Country.values();
+
+		for(Country nation : countries) {
+			countryList.put(nation.name(), nation.getLabel());
+		}
+	}
 	//Getters
 	public String getFirstName() {
 		return firstName;
@@ -24,6 +41,13 @@ public class Player {
 		return sportsCategory;
 	}
 
+	public String getCountry() {
+		return country;
+	}
+
+	public HashMap<String, String> getCountryList() {
+		return countryList;
+	}
 
 	//Setters
 	public void setFirstName(String firstName) {
@@ -40,6 +64,10 @@ public class Player {
 
 	public void setSportsCategory(String category) {
 		this.sportsCategory = category;
+	}
+
+	public void setCountry(String country) {
+		this.country=country;
 	}
 
 }

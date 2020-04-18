@@ -20,5 +20,7 @@ Hurray!! Player Registration Completed.
 <b> Age </b> : ${sportsPerson.age}
 <br>
 <b> Category </b> : ${sportsPerson.sportsCategory}
+<br>
+<b> Country </b> : ${sportsPerson.country}
 </body>
 </html>
