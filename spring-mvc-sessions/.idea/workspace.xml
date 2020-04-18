@@ -7,14 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8b3aadd-3b18-465a-82b4-1905cc11a256" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/entity/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Country.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/controller/PlayerFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/controller/PlayerFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/entity/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/player-confirmation-page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/player-confirmation-page.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/player-details-page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/player-details-page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,7 +44,8 @@
           <entry key="class" value="1" />
           <entry key="java" value="10" />
           <entry key="jsp" value="13" />
-          <entry key="xml" value="5" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -55,7 +53,8 @@
           <entry key="CLASS" value="1" />
           <entry key="JAVA" value="10" />
           <entry key="JSP" value="13" />
-          <entry key="XML" value="5" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -63,7 +62,8 @@
           <entry key="dummy" value="4" />
           <entry key="java" value="3007" />
           <entry key="jsp" value="2140" />
-          <entry key="xml" value="209" />
+          <entry key="properties" value="77" />
+          <entry key="xml" value="349" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -71,7 +71,8 @@
           <entry key="JAVA" value="3007" />
           <entry key="JSP" value="2140" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="XML" value="209" />
+          <entry key="Properties" value="77" />
+          <entry key="XML" value="349" />
         </counts>
       </usages-collector>
     </session>
@@ -79,10 +80,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springsessions/mvc/controller/FormProcessController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springsessions/mvc/controller/PlayerFormController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="390">
+              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,25 +92,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springsessions/mvc/controller/homeDemo.java">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/Country.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springsessions/mvc/controller/PlayerFormController.java">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -182,15 +186,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springsessions/mvc/entity/SportsCategory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
@@ -240,7 +235,6 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/views/HomeDemo.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/homeDemo.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/FormProcess/processedAndForm.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/FormProcess/processedForm.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/FormProcess/processedFormData.jsp" />
@@ -261,6 +255,8 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/views/player-confirmation-page.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/entity/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springsessions/mvc/controller/PlayerFormController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/Country.properties" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
       </list>
     </option>
   </component>
@@ -391,21 +387,6 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring-mvc-sessions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-mvc-sessions" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-mvc-sessions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-mvc-sessions" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="FormProcess" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -423,7 +404,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587231173258" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587234365209" />
     <property name="last_opened_file_path" value="$USER_HOME$/appdirect/appdirect-parent/appdirect/src/main/groovy" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -734,7 +715,7 @@
       <workItem from="1586756344619" duration="598000" />
       <workItem from="1586799974229" duration="1208000" />
       <workItem from="1586943429721" duration="8657000" />
-      <workItem from="1587059390151" duration="10684000" />
+      <workItem from="1587059390151" duration="11638000" />
     </task>
     <servers />
   </component>
@@ -747,7 +728,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48259000" />
+    <option name="totallyTimeSpent" value="49213000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -760,7 +741,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -772,14 +752,14 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32961586" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.47211897" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.47211897" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928468" weight="0.32909605" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32909605" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32909605" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3283767" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3283767" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.32909605" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32909605" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32909605" />
@@ -814,22 +794,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/HomeDemo.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -968,11 +934,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springsessions/mvc/controller/PlayerFormController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+        <state relative-caret-position="390">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Country.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
