@@ -6,13 +6,13 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <html>
 <head>
 	<title>Player Registration Form</title>
 </head>
 <body>
-<form: action="processForm" modelAttribute="sportsPerson">
+<form:form action="processForm" modelAttribute="sportsPerson">
 	First Name: <form:input path="firstName" />
 	<br><br>
 	Last Name: <form:input path="lastName" />
@@ -39,13 +39,16 @@
 	&emsp; <form:radiobutton path="gender" value="Female" /> Female
 	&emsp; <form:radiobutton path="gender" value="Trans" /> Trans
 	<br><br>
+
 	Strengths <br>
 	<form:checkbox path="strengths" value="Fast Runner"/> Pace
 	&emsp;<form:checkbox path="strengths" value="Powerful"/> Power
 	&emsp;<form:checkbox path="strengths" value="Technically Sound"/> Technique
 	&emsp;<form:checkbox path="strengths" value="Flexible"/> Flexible
+
 	<br><br>
 	<input type="submit" value="Submit Details" />
+
 </form:form>
 </body>
 </html>
