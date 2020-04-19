@@ -12,7 +12,7 @@
 	<title>Player Registration Form</title>
 </head>
 <body>
-<form:form action="processForm" modelAttribute="sportsPerson">
+<form: action="processForm" modelAttribute="sportsPerson">
 	First Name: <form:input path="firstName" />
 	<br><br>
 	Last Name: <form:input path="lastName" />
@@ -29,9 +29,21 @@
 	Country <form:select path="country">
 						<form:options items="${sportsPerson.countryList}"/>
 					</form:select>
-	Country <form:select path="birthCountry">
+	<t> </t> &emsp; &emsp;
+	Birth Country <form:select path="birthCountry">
 						<form:options items="${myCountryOptions}" />
 					</form:select>
+	<br><br>
+	Gender <br>
+	<form:radiobutton path="gender" value="Male" /> Male
+	&emsp; <form:radiobutton path="gender" value="Female" /> Female
+	&emsp; <form:radiobutton path="gender" value="Trans" /> Trans
+	<br><br>
+	Strengths <br>
+	<form:checkbox path="strengths" value="Fast Runner"/> Pace
+	&emsp;<form:checkbox path="strengths" value="Powerful"/> Power
+	&emsp;<form:checkbox path="strengths" value="Technically Sound"/> Technique
+	&emsp;<form:checkbox path="strengths" value="Flexible"/> Flexible
 	<br><br>
 	<input type="submit" value="Submit Details" />
 </form:form>

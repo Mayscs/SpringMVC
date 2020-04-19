@@ -11,6 +11,8 @@ public class Player {
 	private String sportsCategory;
 	private String country;
 	private String birthCountry;
+	private String gender;
+	private String[] strengths;
 	private LinkedHashMap<String,String> countryList;
 
 	public Player() {
@@ -54,6 +56,15 @@ public class Player {
 		return birthCountry;
 	}
 
+
+	public String getGender() {
+		return gender;
+	}
+
+	public String[] getStrengths() {
+		return strengths;
+	}
+
 	//Setters
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
@@ -77,6 +88,14 @@ public class Player {
 
 	public void setBirthCountry(String country) {
 		this.birthCountry=country;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+
+	public void setStrengths(String[] strengths) {
+		this.strengths = strengths;
 	}
 
 }

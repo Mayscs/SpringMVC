@@ -15,14 +15,18 @@ Hurray!! Player Registration Completed.
 <br><br>
 <b> Player Details </b>:
 <br>
-<b> Name </b> : ${sportsPerson.firstName} ${sportsPerson.lastName}
+<b> Name </b> : &ensp;${sportsPerson.firstName} ${sportsPerson.lastName}
 <br>
-<b> Age </b> : ${sportsPerson.age}
+<b> Age </b> : &ensp;${sportsPerson.age}
 <br>
-<b> Category </b> : ${sportsPerson.sportsCategory}
+<b> Category </b> : &ensp;${sportsPerson.sportsCategory}
 <br>
-<b> Playing Nation </b> : ${sportsPerson.country}
+<b> Playing Nation </b> : &ensp;${sportsPerson.country}
 <br>
-<b> Birth Country </b> : ${sportsPerson.birthCountry}
+<b> Birth Country </b> : &ensp;${sportsPerson.birthCountry}
+<br>
+<b> Gender </b> : &nbsp; ${sportsPerson.gender}
+<br>
+<b> Player Strengths</b> : &nbsp; ${sportsPerson.strengths}
 </body>
 </html>
