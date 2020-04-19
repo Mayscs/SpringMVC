@@ -21,6 +21,8 @@ Hurray!! Player Registration Completed.
 <br>
 <b> Category </b> : ${sportsPerson.sportsCategory}
 <br>
-<b> Country </b> : ${sportsPerson.country}
+<b> Playing Nation </b> : ${sportsPerson.country}
+<br>
+<b> Birth Country </b> : ${sportsPerson.birthCountry}
 </body>
 </html>

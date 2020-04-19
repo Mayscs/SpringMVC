@@ -29,6 +29,9 @@
 	Country <form:select path="country">
 						<form:options items="${sportsPerson.countryList}"/>
 					</form:select>
+	Country <form:select path="birthCountry">
+						<form:options items="${myCountryOptions}" />
+					</form:select>
 	<br><br>
 	<input type="submit" value="Submit Details" />
 </form:form>

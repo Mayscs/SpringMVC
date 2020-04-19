@@ -10,6 +10,7 @@ public class Player {
 	private int age;
 	private String sportsCategory;
 	private String country;
+	private String birthCountry;
 	private LinkedHashMap<String,String> countryList;
 
 	public Player() {
@@ -49,6 +50,10 @@ public class Player {
 		return countryList;
 	}
 
+	public String getBirthCountry() {
+		return birthCountry;
+	}
+
 	//Setters
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
@@ -68,6 +73,10 @@ public class Player {
 
 	public void setCountry(String country) {
 		this.country=country;
+	}
+
+	public void setBirthCountry(String country) {
+		this.birthCountry=country;
 	}
 
 }
