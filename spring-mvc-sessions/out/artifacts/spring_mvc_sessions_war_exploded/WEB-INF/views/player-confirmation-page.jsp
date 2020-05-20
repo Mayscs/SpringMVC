@@ -32,7 +32,7 @@ Hurray!! Player Registration Completed.
 <ul>
 	<c:forEach var="strength" items="${sportsPerson.strengths}">
 		<li>
-			${strength}
+				${strength}
 		</li>
 	</c:forEach>
 </ul>

@@ -3,9 +3,12 @@ package com.springsessions.mvc.controller;
 
 import java.util.Map;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -27,9 +30,12 @@ public class PlayerFormController {
 	}
 
 	@RequestMapping("/processForm")
-	public String processPlayerForm(@ModelAttribute("sportsPerson") Player player) {
+	public String processPlayerForm(@Valid @ModelAttribute("sportsPerson") Player player, BindingResult bindingResult) {
 		System.out.println("Player Name:" + player.getFirstName() + " " + player.getLastName());
-		return "player-confirmation-page";
+		if (bindingResult.hasErrors())
+			return "player-details-page" ;
+		else
+			return "player-confirmation-page";
 	}
 
 }

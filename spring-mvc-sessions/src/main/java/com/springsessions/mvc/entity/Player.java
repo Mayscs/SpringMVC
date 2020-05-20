@@ -3,10 +3,18 @@ package com.springsessions.mvc.entity;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 
-public class Player {
+import javax.validation.constraints.NotNull;
 
+//@Size(min=1, message = "Field can't be empty")
+//@Size(min=1, message = "Field can't be empty")
+public class Player {
+	@NotNull(message="Mandatory Field")
+	//@Size(min=1)
 	private String firstName;
+	@NotNull(message="Mandatory Field")
+	//@Size(min=1)
 	private String lastName;
+	@NotNull(message="Age field can not be empty.")
 	private int age;
 	private String sportsCategory;
 	private String country;

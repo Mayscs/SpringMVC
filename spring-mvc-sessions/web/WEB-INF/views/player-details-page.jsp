@@ -10,14 +10,20 @@
 <html>
 <head>
 	<title>Player Registration Form</title>
+	<style>
+		.error{color: orangered}
+	</style>
 </head>
 <body>
 <form:form action="processForm" modelAttribute="sportsPerson">
-	First Name: <form:input path="firstName" />
+	First Name(*): <form:input path="firstName" />
+	<form:errors path="firstName" cssClass="error"/>
 	<br><br>
-	Last Name: <form:input path="lastName" />
+	Last Name(*): <form:input path="lastName" />
+	<form:errors path="lastName" cssClass="error"/>
 	<br><br>
-	Age: <form:input path="age" />
+	Age(*): <form:input path="age" />
+	<form:errors path="age" cssClass="error"/>
 	<br><br>
 	Category <form:select path="sportsCategory">
 						<form:option value="SWIMMING" label="Swimming" />
@@ -34,8 +40,9 @@
 						<form:options items="${myCountryOptions}" />
 					</form:select>
 	<br><br>
-	Gender <br>
-	<form:radiobutton path="gender" value="Male" /> Male
+	Gender
+	<br>
+		<form:radiobutton path="gender" value="Male" /> Male
 	&emsp; <form:radiobutton path="gender" value="Female" /> Female
 	&emsp; <form:radiobutton path="gender" value="Trans" /> Trans
 	<br><br>
@@ -45,8 +52,8 @@
 	&emsp;<form:checkbox path="strengths" value="Powerful"/> Power
 	&emsp;<form:checkbox path="strengths" value="Technically Sound"/> Technique
 	&emsp;<form:checkbox path="strengths" value="Flexible"/> Flexible
-
 	<br><br>
+
 	<input type="submit" value="Submit Details" />
 
 </form:form>
